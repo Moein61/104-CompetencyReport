@@ -1,0 +1,94 @@
+.header-site{
+    font-family: 'Mansalva', cursive;
+    background-image: url(header.jpg);
+    background-size: cover;
+    height: 20rem;
+    background-position: center;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.wrap-main{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.square{
+    height: 30rem;
+    border: 1px solid black;
+    width: 20rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.VS {
+    padding: 2rem;
+}
+
+.Augmen{
+    height: 18rem;
+    width: 12rem;
+}
+
+.chun{
+    height: 20rem;
+    width: 15rem;
+}
+
+#c1{
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+}
+
+#c2{
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+}
+
+.btn{
+     height: 4rem;
+     width: 7rem;
+     background-color: green;
+     border-radius: 10%;
+
+}
+ 
+.reset{
+     background-color: red;
+     color: aqua;
+     font-size: 1.5rem;
+     height: 4rem;
+     width: 14rem;
+}
+
+.div-reset{
+     display: flex;
+     justify-content: center;
+     padding: 2rem;
+     text-align: center;
+
+}
+
+.div-console{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#console{
+    border: 1px solid black ;
+    border-radius: 10px ;
+    width: 40rem;
+    height: 10rem;
+    text-align: center;
+}
+
+.img{
+    width: 50px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <title>VideoGame</title>
+</head>
+<body>
+
+    <header class="header-site">
+        <div class="wrap-header">
+
+            <h1>Welcom to Street Fighters Game</h1>
+        </div>
+
+
+
+    </header>
+    <main class="wrap-main">
+
+    <div class="wrap">
+
+        
+
+        <div class="square">
+            <img class="Augmen" src="Augmen.jpg" alt="AugmenPic"> <br>
+                <div id="c1"></div>
+
+            <button class="btn" onclick="c1.attack(c2,selectItem());">Attack</button>
+        </div>
+
+        <Div class="VS"><h1>VS</h1></Div>
+
+        <div class="square">
+            <img class="Chun" src="Chun.jpg" alt="ChunPic"> <br>
+                <div id="c2"></div>
+
+                <button class="btn" onclick="c2.attack(c1,selectItem());">Attack</button>
+            </div>
+            
+    </div>
+    </main>
+    <div class="div-console"> 
+        <div id="console"> </div>
+    </div>
+    <div class="div-reset">
+            
+    <button class="reset" onclick="reset();">Reset</button>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
